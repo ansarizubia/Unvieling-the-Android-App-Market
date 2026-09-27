@@ -9,7 +9,7 @@ Using two real, messy datasets scraped from the Store, 10,841 app listings and 6
 
 To perform a comprehensive data analysis of the Google Play Store ecosystem by cleaning messy real-world data, exploring app category distribution, analysing ratings and pricing trends, and conducting sentiment analysis on user reviews in order to derive actionable, data-driven insights for a developer planning to launch a new app.
 
-##### Steps Performed
+#### Steps Performed
 
 1. **Data Loading** — Loaded the Play Store apps dataset (10,841 apps) and the user reviews dataset (~64,295 reviews) separately.
 2. **Data Cleaning** — Fixed a corrupted record, converted `Installs`, `Price`, `Size`, and `Reviews` from messy text formats (e.g. `"10,000+"`, `"$4.99"`, `"19M"`) into proper numeric types, removed 1,181 duplicate app entries, dropped empty/duplicate reviews, and handled remaining nulls.
@@ -22,7 +22,7 @@ To perform a comprehensive data analysis of the Google Play Store ecosystem by c
 9. **Interactive Visualisation** — Built an interactive Plotly bubble chart plotting category rating vs. sentiment vs. app count.
 10. **Conclusion** — Summarised 3 data-driven insights for a developer planning a new app launch.
 
-##@# Tools Used
+#### Tools Used
 
 - **Python**
 - **pandas**, **numpy** — data cleaning and analysis
@@ -80,8 +80,8 @@ The results show patterns in the dataset but do not prove that one factor causes
 
 Review sentiment was available for only some apps, so it may not represent the entire Play Store.
 
-Author
+#### Author
 
 **Zubia Ansari** — Data & BI Analyst 
 
-LinkedIn · GitHub
+[LinkedIn](https://www.linkedin.com/in/zubia-ansari01/) · [GitHub](https://github.com/ansarizubia)
